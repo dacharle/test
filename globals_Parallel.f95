@@ -20,4 +20,6 @@ real, parameter :: mutation_threshold=10**7 !threshold for a mutation to occur a
 integer, parameter :: mutation=0 !apply mutation 0 or 1 (no or yes, respectively)
 integer, parameter :: add_parameter
 
+add module 1
+
 END MODULE globals_Parallel
