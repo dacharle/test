@@ -18,5 +18,6 @@ real, parameter :: K1=1000,n1=2,K2=1000,n2=2,K3=500,n3=2 !Hill parameters for fi
 real, parameter :: kP1=10,dP1=0.01,kP2_basal=0.1,kP2_act=10,dP2=0.01,kP3_basal=0.01,kP3_act=0.1,dP3=0.0001 !gene expression model parameters
 real, parameter :: mutation_threshold=10**7 !threshold for a mutation to occur at cell division
 integer, parameter :: mutation=0 !apply mutation 0 or 1 (no or yes, respectively)
+integer, parameter :: add_parameter
 
 END MODULE globals_Parallel
